@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+/*  Paleta de cores 
+    Verde mais escuro: 00DB89
+    Azul mais claro: 23A8DB
+    Azul marinho: 00DBD3
+    Verde claro: 11DC4C
+    Azul forte: 00DBD3
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html {
+    background-color: #00DBD3;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+}
+
+
+section#login div#imagem {
+    display: block;
+    background: #00DBD3 url(../imagens/pexels-murdashots-17296639.jpg);
+    background-size: contain;
+    background-position: left bottom;
+    height: 200px;
+}
+
+section#login div#formulario {
+    display: block;
+    padding: 10px;
+}
