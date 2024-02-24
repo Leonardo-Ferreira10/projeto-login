@@ -12,7 +12,7 @@
 
     section#login div#imagem {
         float: left;
-        width: 66%;
+        width: 50%;
         height: 100%;
     }
 
@@ -40,7 +40,7 @@
 
     section#login div#formulario {
         float: left;
-        width: 47%;
+        width: 30%;
     }
 
     div#formulario h1 {
