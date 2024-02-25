@@ -11,13 +11,13 @@
     }
 
     section#login div#imagem {
+        background-image: url(../imagens/Lamborghini\ Aventador\ Tablet\ 3.png);
         float: left;
-        height: 80%;
-        width: 45%;
+        height: 65vh;
+        width: 39.6%;
     }
 
     section#login div#formulario {
-        text-align: justify;
         float: right;
         width: 50%;
     }
