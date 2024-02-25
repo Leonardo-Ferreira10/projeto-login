@@ -50,6 +50,7 @@ section#login div#imagem {
     background-size: cover;
     background-position: left bottom;
     height: 200px;
+    overflow: hidden;
 }
 
 section#login div#formulario {
