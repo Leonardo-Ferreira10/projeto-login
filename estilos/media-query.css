@@ -7,19 +7,19 @@
     }
 
     section#login {
-        width: 80vw;
+        width: 750px;
     }
 
     section#login div#imagem {
-        background-image: url(../imagens/Lamborghini\ Aventador\ Tablet\ 3.png);
         float: left;
-        height: 65vh;
-        width: 39.6%;
+        width: 44.4%;
+        height: 500px;
+        background-image: url(../imagens/Lamborghini\ Aventador\ SVJ\ Tablet\ 3.png);
     }
 
     section#login div#formulario {
         float: right;
-        width: 50%;
+        width: 47%;
     }
 }
 
@@ -35,12 +35,12 @@
     section#login div#imagem {
         float: right;
         height: 500px;
-        width: 50%;
+        width: 44.4%;
     }
 
     section#login div#formulario {
         float: left;
-        width: 30%;
+        width: 50%;
     }
 
     div#formulario h1 {
