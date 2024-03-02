@@ -40,17 +40,17 @@ section#login {
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
     
-    transition: width .3, heigth .3;
+    transition: width 0.3s, heigth 0.3s;
     transition-timing-function: ease;
 }
 
 
-section#login div#imagem {
+section#login > div#imagem {
     display: block;
     background: #00DBD3 url(../imagens/Lamborghini\ Aventador\ SVJ.png) no-repeat;
-    background-size: contain;
-    background-position: left bottom;
-    height: 140px;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
     overflow: hidden;
 }
 
